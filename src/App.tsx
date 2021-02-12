@@ -1,3 +1,5 @@
+import SelectAllNone from "./SelectAllNone";
+
 function App() {
   return (
     <div className="bg-gray-700 text-gray-50 flex flex-col min-h-screen">
@@ -6,6 +8,7 @@ function App() {
       </header>
       <main className="py-2 px-4">
         <h1>Bootstrap App</h1>
+        <SelectAllNone></SelectAllNone>
       </main>
     </div>
   );

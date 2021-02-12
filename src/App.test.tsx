@@ -2,8 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders banner and main content', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const bannerName = screen.getByText(/bootstrap-app/i);
+  expect(bannerName).toBeInTheDocument();
+  const h1 = screen.getByText(/Bootstrap App/i);
+  expect(h1).toBeInTheDocument();
 });

@@ -1,3 +1,4 @@
+import Phone from "./Phone";
 import SelectAllNone from "./SelectAllNone";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       </header>
       <main className="py-2 px-4">
         <h1>Bootstrap App</h1>
-        <SelectAllNone></SelectAllNone>
+        <Phone></Phone>
       </main>
     </div>
   );
